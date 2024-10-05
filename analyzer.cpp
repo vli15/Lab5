@@ -21,8 +21,9 @@ int binary_search(vector<string>& container, string element) {
         }
         else if( container[middle] < element) //the element is to the right of the middle value
         {
-            low = middle + 1;
-            middle = (high + low)/2;
+        //    low = middle + 1;
+        //    middle = (high + low)/2;
+            cout << "Screw That brotha" << endl;
         }
         else //element is to the left of the middle value
         {
